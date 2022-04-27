@@ -1,0 +1,65 @@
+* {padding: 0;
+    margin:0}
+
+
+@media screen and (max-width: 800px)
+    {body{background-color: red;}}
+
+
+body {background-color: var(--colorfondo);
+        font-family: var(--tipodeletra);
+        color:var(--colorletra);
+        width:90%;
+        margin: 1%}
+
+header nav  h1 {margin: 2%;
+                font-size: 200%;
+                text-align: center;
+            
+                }
+
+.espejo {-webkit-box-reflect: below 0 linear-gradient(transparent, rgba(0,0,0, 0.9));
+            
+            }
+
+header nav ul  {list-style:none;
+                background-color: black;
+                text-align: center;
+            } 
+
+header nav ul li {display:inline-block;
+}
+
+header nav ul li a {color:white;
+                    text-decoration: none;
+                    display: block;
+                    padding:10px 50px;
+                    }
+
+header nav ul li a:hover {background-color:grey;
+                        border-radius: 2%;}
+
+ header nav ul li a:active {background-color: rgb(24, 10, 104);
+                        }
+
+ .titulo1 {font-weight: bold;
+                    color: black;
+                    padding:1%;}
+
+article img {margin:2%;
+        
+            border-radius: 10%;
+            width:50%;
+            
+            }
+
+article section .link {padding:1%;
+                    text-decoration: none;
+                    color:black;}
+
+article section .link:hover {font-weight: bold;;
+                        }
+
+footer  {text-align: center;
+                padding:3%;
+                            }
